@@ -1,0 +1,65 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+#titulo{
+
+	color: #d67ad6;
+	font-family: FreeMono, monospace;
+}
+
+#subtitulo {
+	color: #d67ad6;
+	margin-left: 7%;
+font-family: FreeMono, monospace
+}
+
+#tudo{
+	background-color: #ffeec7;
+	font-size: 1em;
+	margin-left: 36%;
+	margin-top: 2%;}
+	
+
+   .grupo{
+       padding: 6px;
+       border: 0;
+       border-radius: 5px;
+       background: #D8BFD8;
+       font-family: FreeMono, monospace;
+	   width: 30px;
+      
+        ;
+    }
+    input, select, textarea, button {
+        
+        font-size: 1em;
+        color: #59429d;
+        border-radius: 5px;
+        display: inline-block;}
+
+    .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+          padding: 0.2em;
+           border: 1px solid #59429d;
+           box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+           display: block;
+        }
+        .botão {
+            font-size: 13px;
+            background: #59429d;
+            border: 0;
+            margin-bottom: 1em;
+            color: #ffffff;
+            padding: 0.2em 0.6em;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            
+          
+           
+        }  
+        .campo input:focus, .campo select:focus, .campo textarea:focus {
+            background-color: #c2f2ff;
+        }  
